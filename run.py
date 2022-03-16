@@ -3,7 +3,7 @@ A startup location to execute all problems
 """
 
 from shared import stopwatch
-from src import day07
+from src import day08
 
 def test(f, message):
 	timer = stopwatch.Timer()
@@ -19,4 +19,4 @@ def test(f, message):
 print('Advent of Code 2021 - https://adventofcode.com/2021')
 print('----------------------------------------------')
 print()
-test(day07.main, "Day 7: The Treachery of Whales")
+test(day08.main, "Day 8: Seven Segment Search")
